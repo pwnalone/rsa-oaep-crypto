@@ -34,10 +34,17 @@ References
 Here is a list of my sources, which I used to research the RSA-OAEP
 algorithm, and found very helpful when I got stuck.
 
-1. PKCS#1 Crypto Standard PDF		(http://www.rsa.com/rsalabs/pkcs/files/h11300-wp-pkcs-1v2-2-rsa-cryptography-standard.pdf)
-2. Wikipedia - RSA (algorithm)		(http://en.wikipedia.org/wiki/RSA_(algorithm))
-3. Wikipedia - OAEP					(http://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding)
-4. Wikipedia - PKCS#1				(http://en.wikipedia.org/wiki/PKCS1)
-5. Microsoft ASN.1 Documentation	(http://msdn.microsoft.com/en-us/library/windows/desktop/bb540796(v=vs.85).aspx)
-6. Cryptography 1 Course			(http://coursera.org/)
-7. StackOverflow					(I lost track of the links... oops)
+1. PKCS#1 Crypto Standard PDF
+(http://www.rsa.com/rsalabs/pkcs/files/h11300-wp-pkcs-1v2-2-rsa-cryptography-standard.pdf)
+2. Wikipedia - RSA (algorithm)
+(http://en.wikipedia.org/wiki/RSA_(algorithm))
+3. Wikipedia - OAEP
+(http://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding)
+4. Wikipedia - PKCS#1
+(http://en.wikipedia.org/wiki/PKCS1)
+5. Microsoft ASN.1 Documentation
+(http://msdn.microsoft.com/en-us/library/windows/desktop/bb540796(v=vs.85).aspx)
+6. Cryptography 1 Course
+(http://coursera.org/)
+7. StackOverflow
+(I lost track of the links... oops)
