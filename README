@@ -1,0 +1,43 @@
+README
+----------
+This is a project I did myself to help me practice my C++ programming.
+I implemented the RSA-OAEP encryption/decryption algorithms, and wrote
+some code to read and write Der-Pem encoded RSA public/private keys.
+
+The padding scheme is OAEP-MGF1(SHA256), which is used to make the
+entire RSA-OAEP algorithm CPA (Chosen Plaintext Attack) Secure.
+I also read what I believe is the standards document for RSA - RFC 3447 -
+and have followed their explanation of the RSADS-OAEP algorithm, so
+that my implementation won't be subject to timing attacks (hopefully).
+
+I used the GNU GMP (GNU Multiple Precision) Library as my arbitrary
+precision library.
+
+Dependencies
+---------------
+	+ Linux/Unix Operating System
+	+ gcc/g++ Compiler
+	+ GMP Library must be installed with C++ enabled (http://www.gmplib.org/)
+
+*Note: I've only tested my project on Mac OS X 10.8.4 and on Ubuntu 12.10,
+so I don't know how it will run on other operating systems.
+
+My project's executable programs are in the Demos folder, and can be
+compiled by typing 'make <file_name>' and replacing <file_name> with the
+name of program (ex. mask.cc --> 'make mask').
+
+Also, I used valgrind to check my programs for memory leaks, and it
+showed that there were none.	:)
+
+References
+--------------
+Here is a list of my sources, which I used to research the RSA-OAEP
+algorithm, and found very helpful when I got stuck.
+
+1. PKCS#1 Crypto Standard PDF		(http://www.rsa.com/rsalabs/pkcs/files/h11300-wp-pkcs-1v2-2-rsa-cryptography-standard.pdf)
+2. Wikipedia - RSA (algorithm)		(http://en.wikipedia.org/wiki/RSA_(algorithm))
+3. Wikipedia - OAEP					(http://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding)
+4. Wikipedia - PKCS#1				(http://en.wikipedia.org/wiki/PKCS1)
+5. Microsoft ASN.1 Documentation	(http://msdn.microsoft.com/en-us/library/windows/desktop/bb540796(v=vs.85).aspx)
+6. Cryptography 1 Course			(http://coursera.org/)
+7. StackOverflow					(I lost track of the links... oops)
